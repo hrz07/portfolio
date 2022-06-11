@@ -3,6 +3,7 @@ import WorkImg from '../assets/workImg.png';
 import realEstate from '../assets/realestate.jpg';
 import phoneMela from '../assets/phoneMela.png';
 import trac from '../assets/trac.png';
+import Modal from './Modal';
 
 const Work = () => {
   return (
@@ -25,20 +26,20 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
-              </span>
+             
               <div className='pt-8 text-center'>
-                <a href='/'>
+                <a href='https://toolzz-e5294.web.app/'  target="_blank">
+                 
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='/'>
+                <a href='https://github.com/hrz07/toolzz-frontend'  target="_blank">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
                 </a>
+                <label for="one" className="btn bg-white text-black w-[200px] hover:bg-red-600 font-bold hover:text-white modal-button">Details</label>
               </div>
             </div>
           </div>
@@ -161,6 +162,7 @@ const Work = () => {
           </div>
         </div>
       </div>
+      <Modal/>
     </div>
   );
 };
