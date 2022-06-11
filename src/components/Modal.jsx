@@ -5,6 +5,9 @@ import one3 from '../assets/1.3.png'
 import two1 from '../assets/2.1.png'
 import two2 from '../assets/2.2.png'
 import two3 from '../assets/2.3.png'
+import three1 from '../assets/3.1.png'
+import three2 from '../assets/3.2.png'
+import three3 from '../assets/3.3.png'
 const Modal = () => {
     return (
         <div>
@@ -62,6 +65,28 @@ const Modal = () => {
                     <li>MongoDB</li>
                 </div>
             </div>
+            <input type="checkbox" id="three" className="modal-toggle" />
+            <div className="modal">
+            <div className="modal-box relative text-black">
+                <label for="three" className="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
+               <img src={three1} alt="screenshot1" />
+               <img src={three2} alt="screenshot2" />
+               <img src={three3} alt="screenshot3" />
+                <p className="py-4 text-black font-bold">Feature :</p>
+                <li>Private route</li>
+                <li>Authentication by email Password or google</li>
+                <li>Services</li>
+                <li>Checkout</li>
+                <li>Blog section</li>
+                <li>About me</li>
+                <p className="py-4 text-black font-bold">Technologies used :</p>
+                <li>ReactS</li>
+                <li>Firebase</li>
+                <li>React Router</li>
+                <li>React firebase hook</li>
+                <li>Tostify</li>
+            </div>
+        </div>
         </div>
     );
 };
