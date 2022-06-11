@@ -2,6 +2,9 @@ import React from 'react';
 import one1 from '../assets/1.1.png'
 import one2 from '../assets/1.2.png'
 import one3 from '../assets/1.3.png'
+import two1 from '../assets/2.1.png'
+import two2 from '../assets/2.2.png'
+import two3 from '../assets/2.3.png'
 const Modal = () => {
     return (
         <div>
@@ -28,6 +31,30 @@ const Modal = () => {
                     <li>React Router</li>
                     <li>React Query</li>
                     <li>React hook form</li>
+                    <li>React firebase hook</li>
+                    <li>Tostify</li>
+                    <li>JWT</li>
+                    <li>Express</li>
+                    <li>MongoDB</li>
+                </div>
+            </div>
+            <input type="checkbox" id="two" className="modal-toggle" />
+            <div className="modal">
+                <div className="modal-box relative text-black">
+                    <label for="two" className="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
+                   <img src={two1} alt="screenshot1" />
+                   <img src={two2} alt="screenshot2" />
+                   <img src={two3} alt="screenshot3" />
+                    <p className="py-4 text-black font-bold">Feature :</p>
+                    <li>seller can upload his/hes product</li>
+                    <li>seller can delete products</li>
+                    <li>seller can update is products quantity</li>
+                    <li>Private Routes</li>
+                    <li>seller login/ logout system</li>
+                    <p className="py-4 text-black font-bold">Technologies used :</p>
+                    <li>ReactS</li>
+                    <li>Firebase</li>
+                    <li>React Router</li>
                     <li>React firebase hook</li>
                     <li>Tostify</li>
                     <li>JWT</li>
